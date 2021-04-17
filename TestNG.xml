@@ -5,7 +5,19 @@
     <test name="RegistracijaChrome">
         <parameter name="browser" value="CHROME"/>
         <classes>
-            <class name="test_classes.Registracija"/>
+            <class name="test_classes.Kupovina"/>
+        </classes>
+    </test>
+    <test name="RegistracijaFirefox">
+        <parameter name="browser" value="FIREFOX"/>
+        <classes>
+            <class name="test_classes.Kupovina"/>
+        </classes>
+    </test>
+    <test name="RegistracijaOpera">
+        <parameter name="browser" value="OPERA"/>
+        <classes>
+            <class name="test_classes.Kupovina"/>
         </classes>
     </test>
 
